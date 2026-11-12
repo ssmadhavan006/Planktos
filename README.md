@@ -370,13 +370,9 @@ python scripts/pi_healthcheck.py --bench
   📧 vkr3056@gmail.com  
   🔗 [GitHub Profile](https://github.com/KARTHICK-3056)
 
-* **G.K. AKASHGAUTHAM**  
-  📧 gkakash2006@gmail.com  
-  🔗 [GitHub Profile](https://github.com/Akashgautham)
-
 * **K. RAKSHITHASRI**  
   📧 rakshiekt@gmail.com  
-  🔗 [GitHub Profile](https://github.com/rakshithasri-k)
+  🔗 [GitHub Profile](https://github.com/rakshithasri06)
 
 * **M.N. RAKSHA**  
   📧 rakshanathan006@gmail.com  
