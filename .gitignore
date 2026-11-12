@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+planktos/
+
+# Environment variables
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors & IDEs
+.vscode/
+.idea/
+.claude/
+
+# Compiled model artifacts (rebuild with: python optimize_model.py export)
+# These are 100+ MB each and derived from models/best.pt, so they are built per
+# deployment rather than committed. models/exports.json is the manifest that
+# records how they were produced -- that one IS worth committing if you pin a
+# specific export configuration for a field build.
+model/
+models/*_ncnn_model/
+models/*_saved_model/
+models/*.onnx
+models/*.onnx.data
+models/*.tflite
+models/*.torchscript
+models/.calibration/
+models/.verify/
+
+# Runtime outputs
+outputs/
+
+# Offline deployment bundle (rebuild with: ./scripts/create_offline_bundle.sh)
+offline_wheels/
+planktos_offline_*.tar.gz
+marine_ai_offline_*.tar.gz
+
+# Ultralytics settings/cache redirected here by run_optimized.sh
+.ultralytics/
+
+# Drift reports & logs
+drift*.json
+*.log
